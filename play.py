@@ -17,13 +17,13 @@ def choose_difficulty():
     choice = input("번호 입력 (1~4): ")
 
     if choice == '1':
-        return 1.0, "q_easy.pkl"
+        return 1.0, "pkl/q_easy.pkl"
     elif choice == '2':
-        return 0.5, "q_normal.pkl"
+        return 0.5, "pkl/q_normal.pkl"
     elif choice == '3':
-        return 0.1, "q_hard.pkl"
+        return 0.1, "pkl/q_hard.pkl"
     else:
-        return 0.0, "q_master.pkl"
+        return 0.0, "pkl/q_master.pkl"
 
 def play():
     while True:
